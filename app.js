@@ -1,8 +1,7 @@
-console.log( "loaded");
 
-
-const button = document.querySelector('.play');
-
-button.addEventListener('click', function(){
-    console.log("hello");
+const btn = document.querySelector("button")
+btn.addEventListener('click',function(){
+    document.location.href = 'price.html';
 })
+
+
